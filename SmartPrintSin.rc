@@ -1,0 +1,31 @@
+    #include <windows.h>
+     
+    ID_ICON    ICON    DISCARDABLE    "SmartPrintSin.ico"
+    CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "SmartPrintSin.exe.manifest"
+
+	1 VERSIONINFO
+	FILEVERSION 1,2,3,0
+	PRODUCTVERSION 1,2,3,0
+	FILEOS VOS_NT_WINDOWS32
+	FILETYPE VFT_APP
+	BEGIN
+	  BLOCK "StringFileInfo"
+	  BEGIN
+		BLOCK "040904B0"
+		BEGIN
+		  VALUE "CompanyName", "Sintesis Bolivia"
+		  VALUE "FileDescription", "Servicio local de impresion"
+		  VALUE "FileVersion", "1.2.3.0"
+		  VALUE "InternalName", "SmartPrintSin"
+		  VALUE "LegalCopyright", "Copyright 2020 Sintesis. Todos los derechos reservados"
+		  VALUE "OriginalFilename", "SmartPrintSin.exe"
+		  VALUE "ProductName", "SmartPrintSin"
+		  VALUE "ProductVersion", "1.2.3.0"
+		END
+	  END 
+	  
+	  BLOCK "VarFileInfo"
+	  BEGIN
+		VALUE "Translation", 0x400A, 1252
+	  END
+	END
